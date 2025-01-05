@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles/style.css">
+    <title>أكمل حسابك</title>
+</head>
+
+<body>
+    <div class="register">
+        <div class="image side">
+            <img src="../../images/user.svg" alt="user logo">
+        </div>
+        <div class="data">
+            <div class="form">
+                <div class="image">
+                    <img src="../../images/jouniorlogo.svg" alt="jounior logo">
+                </div>
+                <h1>تسجيل الاشتراك</h1>
+                <form action="">
+                    <div class="form-controll">
+                        <label for="name">الاسم</label>
+                        <input type="text" name="name" placeholder="ادخل الاسم">
+                    </div>
+                    <div class="form-controll">
+                        <label for="email">البريد الألكتروني</label>
+                        <input type="text" email="email" placeholder="ادخل البريد الإلكتروني">
+                    </div>
+                    <div class="form-controll">
+                        <label for="password">كلمة المرور</label>
+                        <input type="password" name="password" placeholder="ادخل كلمة المرور">
+                    </div>
+                    <div class="check-group">
+                        <p class="choose">اختر المرحلة العمرية</p>
+                        <label for="eight">
+                            <input type="checkbox" name="age" id="eight" style="display: none;">
+                            <span></span>
+                            <p>من 8 الى 12 سنة</p>
+                        </label>
+                    </div>
+                    <div class="check-group">
+                        <label for="therteen">
+                            <input type="checkbox" name="age" id="therteen" style="display: none;">
+                            <span></span>
+                            <p>من 13 الى 18 سنة</p>
+                        </label>
+                    </div>
+                    <div class="submit">
+                        <button id="submit">تسجيل</button>
+                        <button id="close">الغاء</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../../scripts/custom.js"></script>
+</body>
+
+</html>
