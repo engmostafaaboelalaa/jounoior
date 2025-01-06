@@ -1,0 +1,832 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: El Messiri;
+    direction: rtl;
+}
+
+.maincontainer {
+    width: 100%;
+    display: flex;
+}
+
+
+/* this style for the aside section  */
+
+.maincontainer aside {
+    width: 20%;
+    height: 100vh;
+    background-color: #F7F7F7;
+    position: static;
+}
+
+.maincontainer aside .exit {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.maincontainer aside .exit:hover {
+    background-color: gray;
+}
+
+.maincontainer aside .exit img {
+    width: 70%;
+    height: 70%;
+    cursor: pointer;
+}
+
+.maincontainer aside .pages {
+    width: 100%;
+}
+
+.maincontainer aside .pages a {
+    text-decoration: none;
+    display: block;
+    width: 85%;
+    margin: auto;
+}
+
+.maincontainer aside a .image {
+    width: 100%;
+    height: 100px;
+}
+
+.maincontainer aside a .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer aside .pages .links {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.maincontainer aside .pages .links ul {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.maincontainer aside .pages .links ul li {
+    width: 100% !important;
+    padding: 10px 5px;
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+
+.maincontainer aside .pages .links ul li a {
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.maincontainer aside .pages .links ul li.bg:hover {
+    background-color: #7355b9;
+}
+
+.maincontainer aside .pages .links ul li.bg:hover p {
+    color: #fff;
+}
+
+.maincontainer aside .pages .links ul li.bg:hover img {
+    filter: invert(100%) brightness(1000%) contrast(100%);
+}
+
+.maincontainer aside .pages .links ul li.bg.active {
+    background-color: #63518C;
+}
+
+.maincontainer aside .pages .links ul li.bg.active .link img {
+    filter: invert(100%) brightness(1000%) contrast(100%);
+    width: 40px;
+    height: 40px;
+}
+
+.maincontainer aside .pages .links ul li.bg.active a {
+    justify-content: space-around;
+}
+
+.maincontainer aside .pages .links ul li.bg.active p {
+    color: #fff;
+    font-size: 25px;
+}
+
+.maincontainer aside .pages .links ul li a .link {
+    margin-left: 25px;
+}
+
+.maincontainer aside .pages .links ul li a p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 37.94px;
+    text-align: right;
+    color: #63518C;
+}
+
+.maincontainer aside .pages .links ul li.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 0px;
+}
+
+.maincontainer aside .pages .links ul li.profile .link {
+    width: 60px;
+    height: 60px;
+}
+
+.maincontainer aside .pages .links ul li.profile .link img {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer aside .pages .links ul li.profile {
+    width: 80% !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 37.94px;
+    text-align: right;
+    color: #63518C;
+}
+
+.maincontainer aside .pages .links ul li a .link {
+    width: 40px;
+    height: 40px;
+}
+
+.maincontainer aside .pages .links ul li a .link img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* end of the aside section */
+
+
+/* this section for the main content pages */
+
+.maincontainer .content {
+    width: 80%;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.maincontainer .content .container {
+    width: 90%;
+    height: 30px;
+    margin: auto;
+}
+
+.maincontainer .content .container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    margin-bottom: 40px;
+}
+
+.maincontainer .content .container .header p {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45.53px;
+    text-align: right;
+    color: #0D002C;
+}
+
+.maincontainer .content .container .header .input {
+    width: 35%;
+    display: flex;
+    position: relative;
+    direction: ltr;
+}
+
+.maincontainer .content .container .header .input input[type=text] {
+    width: 100%;
+    height: 64px;
+    padding: 15px 47px 15px 24px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    background-color: #F7F7F7;
+    text-align: right;
+    font-size: 20px;
+    color: #0D002C;
+}
+
+.maincontainer .content .container .header .input input[type=text]::placeholder {
+    font-size: 18px;
+}
+
+.maincontainer .content .container .header .input img {
+    position: relative;
+    right: 37px;
+    bottom: -1px;
+}
+
+.maincontainer .content .container .header .notification {
+    width: 40px;
+    height: 40px;
+}
+
+.maincontainer .content .container .header .notification img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.maincontainer .content .container .maincourses .category {
+    display: flex;
+}
+
+.maincontainer .content .container .maincourses .category .btn {
+    padding: 5px 20px;
+    background-color: #636363;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45.53px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.maincontainer .content .container .maincourses .category .btn.active {
+    margin: 0px 10px;
+    background-color: #63518C;
+    font-size: 25px;
+}
+
+
+/* this is the end for the main section */
+
+.maincontainer .content .container .maincourses .courses {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.maincontainer .content .container .maincourses .courses .course {
+    width: 32%;
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.maincontainer .content .container .maincourses .courses .course .image {
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.maincontainer .content .container .maincourses .courses .course .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .content .container .maincourses .courses .course .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .courses .course .head p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 37.94px;
+    text-align: right;
+    color: #000000;
+}
+
+.maincontainer .content .container .maincourses .courses .course .head .rate {
+    display: flex;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .courses .course .head .rate img {
+    width: 20px;
+    height: 20px;
+}
+
+.maincontainer .content .container .maincourses .courses .course .head .rate span {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+    color: #000000;
+    height: fit-content;
+    margin-left: 10px;
+}
+
+.maincontainer .content .container .maincourses .courses .course p.description {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30.35px;
+    text-align: right;
+    padding: 20px 0px;
+    color: #0D002C;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.maincontainer .content .container .maincourses .courses .course .actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maincontainer .content .container .maincourses .courses .course .actions .subscribe {
+    width: 45%;
+    height: 38px;
+    padding: 4px 24px;
+    border-radius: 10px;
+    background-color: #63518C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30.35px;
+    text-align: right;
+    color: #fff;
+    cursor: pointer;
+}
+
+.maincontainer .content .container .maincourses .courses .course .actions .like {
+    width: 45%;
+    height: 38px;
+    padding: 4px 24px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #63518C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30.35px;
+    text-align: right;
+    color: #63518C;
+    cursor: pointer;
+}
+
+
+/* this is the courses section  */
+
+
+/* هذا الستيل خاص بصفحة أختيار الباقة */
+
+.maincontainer .content .container .maincourses .courses .box {
+    width: 45%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #63518C;
+    padding-top: 25px;
+    border-radius: 10px;
+}
+
+.maincontainer .content .container .maincourses .courses .box p.top {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37.51px;
+    text-align: center;
+    color: #7355b9;
+    margin-bottom: 30px;
+}
+
+.maincontainer .content .container .maincourses .courses .box .list ul {
+    width: 100%;
+    padding-right: 30px;
+    margin: 30px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.01px;
+    text-align: right;
+    opacity: 80%;
+    color: #7355b9;
+}
+
+.maincontainer .content .container .maincourses .courses .box .list ul li {
+    margin: 30px 0px;
+}
+
+.maincontainer .content .container .maincourses .courses .box a {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .courses .box a .btn {
+    width: 99%;
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #7355b9;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.01px;
+    text-align: center;
+    margin-bottom: 1px;
+    color: #fff;
+}
+
+.maincontainer .content .container .maincourses .sub {
+    margin-top: 40px;
+}
+
+.maincontainer .content .container .maincourses .subscripeorder {
+    width: 35%;
+    height: 54px;
+    border-radius: 6px;
+    font-family: El Messiri;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: center;
+    background-color: #7355b9;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+/* هذة نهاية صفحة إختيار الكورسات */
+
+
+/* هذة صفحة تأكيد الدفع */
+
+.maincontainer .content .container .maincourses .courses .details .return {
+    display: flex;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .courses .details .return .image {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.maincontainer .content .container .maincourses .courses .details .return .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .content .container .maincourses .courses .details .return {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 45.53px;
+    text-align: right;
+    color: #0D002C;
+}
+
+.maincontainer .content .container .maincourses .courses .details p.text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37.51px;
+    text-align: right;
+    color: #63518C;
+    margin: 30px 0px;
+}
+
+.maincontainer .content .container .maincourses .courses .details .list {
+    width: 70%;
+    margin: auto;
+}
+
+.maincontainer .content .container .maincourses .courses .details .list ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.01px;
+    text-align: right;
+    color: #63518C;
+    margin: 20px;
+}
+
+.maincontainer .content .container .maincourses .courses .details a {
+    width: 100%;
+    text-decoration: none;
+    display: block;
+}
+
+.maincontainer .content .container .maincourses .courses .details a .sub {
+    width: 100%;
+    margin-top: 40p;
+}
+
+.maincontainer .content .container .maincourses .courses .details a .sub .subscripeorder {
+    width: 100%;
+}
+
+
+/* this for wallet page style */
+
+.maincontainer .content .container .maincourses .courses .walletdetails a {
+    width: fit-content;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails {
+    width: 100%;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .wallet {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet {
+    width: 55%;
+    margin: auto;
+    padding: 30px;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .image {
+    width: 50%;
+    height: 250px;
+    margin: auto;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .para {
+    margin-top: 40px;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .para .coast {
+    font-family: El Messiri;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46.89px;
+    text-align: center;
+    color: #0D002C;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .para .price {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 75.02px;
+    text-align: center;
+    color: #63518C;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .para .ship {
+    width: 257px;
+    height: 82px;
+    background-color: #63518C;
+    font-family: El Messiri;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50.02px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .pay {
+    font-family: El Messiri;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.01px;
+    text-align: right;
+    margin-top: 20px;
+    color: #E21818;
+}
+
+
+/* end for wallet page style */
+
+
+/* this is the ways of payment ways */
+
+.maincontainer .content .container .maincourses .courses .walletdetails .ways {
+    margin-top: 50px;
+    padding-right: 40px;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .ways p.ship {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31.26px;
+    text-align: right;
+    color: #0D002C;
+    margin-bottom: 40px;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .ways .way {
+    padding-top: 10px;
+    width: 400px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D9D9D9;
+    cursor: pointer;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .ways .way p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: right;
+    color: #0D002C;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .ways .way .image {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .ways .way .image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* this is the end of the payment ways page  */
+
+
+/* this is the success payment page */
+
+.maincontainer .content .container .maincourses .courses .walletdetails .success {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .success .congrate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .success .congrate h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 62.52px;
+    text-align: center;
+    color: #63518C;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .success .congrate p {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 50.02px;
+    text-align: center;
+    color: #292929;
+    margin: 30px 0px;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .success .congrate .image {
+    width: 50%;
+    height: 400px;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .success .congrate .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .content .container .maincourses .courses .walletdetails .success .congrate a {
+    margin-top: 10px;
+    width: 40%;
+    height: 54px;
+    border-radius: 6px;
+    background-color: #63518C;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: El Messiri;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* end of hte succes payement page */
+
+
+/* this is the category page in user courses */
+
+.maincontainer .content .container .maincourses .courses .category {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.maincontainer .content .container .maincourses .courses .category .box {
+    width: 30%;
+    background-color: #F7F7F7;
+    border: none;
+    padding: 40px 20px;
+    cursor: pointer;
+}
+
+.maincontainer .content .container .maincourses .courses .category .box .numbers {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: Noto Kufi Arabic;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 37.94px;
+    text-align: right;
+    color: #0D002C;
+}
+
+
+/* this is the end of category page in  user courses */
+
+
+/* this is the group page */
+
+.maincontainer .content .container .maincourses .return .image {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.maincontainer .content .container .maincourses .return .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .content .container .maincourses .return {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 37.94px;
+    text-align: right;
+    color: #0D002C;
+}
+
+.maincontainer .content .container .maincourses .courses .category .groups {
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+
+/* end for the group page */
+
+
+/* 
+نهاية صفحة تأكيد الدفع */
+
+@media (max-width:1300px) {
+    .maincontainer .content .container .maincourses .courses {
+        justify-content: space-between;
+        gap: 0px;
+    }
+    .maincontainer .content .container .maincourses .courses .course {
+        width: 48%;
+    }
+}
