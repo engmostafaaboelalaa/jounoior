@@ -833,6 +833,244 @@ html {
 
 /* this is the courses section at student profile */
 
+
+/* this page for the showing details for the course page */
+
+.maincontainer .content .container .maincourses .return {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .return.mycourses .right {
+    display: flex;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .return.mycourses .right .image {
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+.maincontainer .content .container .maincourses .return.mycourses .right .image img {
+    width: 100%;
+    height: 100%
+}
+
+.maincontainer .content .container .maincourses .return.mycourses .right .coursetext {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37.94px;
+    text-align: right;
+    color: #0D002C;
+}
+
+.maincontainer .content .container .maincourses .return.mycourses .left p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.56px;
+    text-align: right;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: #DB1A1A;
+}
+
+.maincontainer .content .container .maincourses .courses .course .head p {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.94px;
+    text-align: right;
+    color: #000000;
+}
+
+.maincontainer .content .container .maincourses .courses .course a {
+    display: block;
+    width: 98%;
+    height: 38px;
+    padding: 4px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #63518C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30.35px;
+    text-align: right;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails {
+    align-items: start;
+    justify-content: space-between;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details {
+    width: 63%;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.94px;
+    text-align: right;
+    color: #000000;
+    margin: 30px 0px;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .name .image {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .name .image img {
+    width: 30px;
+    height: 30px;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details p.description {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: right;
+    color: #676767;
+    margin-bottom: 30px;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .general {
+    display: flex;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .general .textrate {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34.15px;
+    text-align: right;
+    color: #131313;
+    margin-left: 30px;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .general .star {
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .general .star .num {
+    font-family: Noto Kufi Arabic;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30.35px;
+    text-align: right;
+    color: #717171;
+    margin-left: 10px;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .general .star img {
+    width: 30px;
+    height: 30px;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .watch {
+    display: flex;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .watch p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.56px;
+    text-align: right;
+    color: #717171;
+    margin-left: 10px;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .aboutcourse {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.94px;
+    text-align: right;
+    color: #000000;
+    margin: 50px 0px;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .comments {
+    width: 90%;
+    margin: auto;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .comments .comment {
+    display: flex;
+    align-items: start;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .comments .comment .image {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .comments .comment .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .comments .comment .mainusercomment {
+    width: 75%;
+    height: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D4D4D4;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 4px 0px;
+}
+
+.maincontainer .content .container .maincourses .courses.coursedetails .details .comments .comment .mainusercomment .username {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.35px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+/* end of show details for the course page */
+
+
+/* 
+this section for the the lesson page */
+
+.maincontainer .content .container .maincourses .return.mylessons .right {
+    display: flex;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .return.mylessons .right .image {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* end for the lesson page */
+
 .maincontainer .content .container .maincourses .courses p.description {
     margin-bottom: 30px;
 }
