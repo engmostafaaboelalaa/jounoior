@@ -508,6 +508,14 @@ html {
     color: #0D002C;
 }
 
+.maincontainer .content .container .maincourses .return p.para {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 45.53px;
+    text-align: right;
+    color: #0D002C;
+}
+
 .maincontainer .content .container .maincourses .courses .details p.text {
     font-size: 24px;
     font-weight: 700;
@@ -810,6 +818,7 @@ html {
 }
 
 .maincontainer .content .container .maincourses .courses .category .groups {
+    width: 26%;
     height: 250px;
     margin-bottom: 20px;
 }
@@ -820,6 +829,16 @@ html {
 
 /* 
 نهاية صفحة تأكيد الدفع */
+
+
+/* this is the courses section at student profile */
+
+.maincontainer .content .container .maincourses .courses p.description {
+    margin-bottom: 30px;
+}
+
+
+/* end of the the student courses */
 
 @media (max-width:1300px) {
     .maincontainer .content .container .maincourses .courses {
