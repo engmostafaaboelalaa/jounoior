@@ -28,3 +28,9 @@ close.addEventListener("click", () => {
     list.style.display = "none";
     maincontent.style.width = "100%";
 })
+
+
+
+
+
+console.log("hello mff")

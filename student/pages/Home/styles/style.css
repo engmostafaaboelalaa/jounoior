@@ -1008,6 +1008,10 @@ html {
     margin: 50px 0px;
 }
 
+.maincontainer .content .container .maincourses .courses p.description {
+    margin-bottom: 30px;
+}
+
 .maincontainer .content .container .maincourses .courses.coursedetails .details .comments {
     width: 90%;
     margin: auto;
@@ -1068,17 +1072,453 @@ this section for the the lesson page */
     height: 40px;
 }
 
-.maincontainer .content .container .maincourses .return.mylessons .lesson {}
-
 
 /* end for the lesson page */
 
-.maincontainer .content .container .maincourses .courses p.description {
-    margin-bottom: 30px;
+.maincontainer .content .container .maincourses .quiz-lesson {
+    display: flex;
+    justify-content: start;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.maincontainer .content .container .maincourses .quiz-lesson .lesson {
+    width: 300px;
+    height: 300px;
+    padding: 41px 48.79px 50.63px 48px;
+    background-color: #F7F7F7;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.maincontainer .content .container .maincourses .quiz-lesson .lesson .image {
+    width: 100%;
+    height: 80%;
+}
+
+.maincontainer .content .container .maincourses .quiz-lesson .lesson .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .content .container .maincourses .quiz-lesson .lesson p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45.53px;
+    text-align: right;
+    color: #0D002C;
+    text-align: center;
 }
 
 
 /* end of the the student courses */
+
+
+/* this section for the quiz page */
+
+.maincontainer .content .container .maincourses.quizes {
+    display: block;
+}
+
+.maincontainer .content .container .maincourses .main-quiz {
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.maincontainer .content .container .maincourses .main-quiz h4 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 45.53px;
+    text-align: left;
+    color: #7A1812;
+}
+
+.maincontainer .content .container .maincourses .main-quiz .question {
+    margin-bottom: 30px;
+}
+
+.maincontainer .content .container .maincourses .main-quiz p {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 45.53px;
+    text-align: right;
+    color: #63518C;
+}
+
+.maincontainer .content .container .maincourses .main-quiz .question {
+    margin-top: 20px;
+}
+
+.maincontainer .content .container .maincourses .main-quiz .question .questionheader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.maincontainer .content .container .maincourses .main-quiz .question .questionheader .thequestion {
+    width: 80%;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45.53px;
+    text-align: right;
+    color: #4B4843;
+}
+
+.maincontainer .content .container .maincourses .main-quiz .question .questionheader .degree {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 45.53px;
+    text-align: right;
+    color: #4B4843;
+}
+
+.maincontainer .content .container .maincourses .main-quiz .question .selected {
+    margin-right: 25px;
+}
+
+.maincontainer .content .container .maincourses .main-quiz .question .selected .selection {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.maincontainer .content .container .maincourses .main-quiz .question .selected .selection label {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.maincontainer .content .container .maincourses .main-quiz .question .selected .selection img {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .content .container .maincourses .main-quiz .question .selected .selection p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 45.53px;
+    text-align: right;
+    color: #4B4843;
+    margin-right: 15px;
+}
+
+.maincontainer .content .container .maincourses .main-quiz .line {
+    display: flex;
+    align-items: end;
+}
+
+.maincontainer .content .container .maincourses .main-quiz .line p {
+    margin-left: 15px;
+}
+
+.maincontainer .content .container .maincourses .main-quiz .line div {
+    height: fit-content;
+    width: 80%;
+    border: 1px solid;
+}
+
+
+/* end for quiz page */
+
+
+/* this section for the result page */
+
+.maincontainer .content .container .maincourses .main-result {
+    margin: 100px 0px;
+}
+
+.maincontainer .content .container .maincourses .main-result .result p.result {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 45.53px;
+    text-align: right;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: #63518C;
+}
+
+.maincontainer .content .container .maincourses .main-result .result p.correct {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 45.53px;
+    text-align: right;
+    color: #0F8247;
+    margin: 20px 0px;
+}
+
+.maincontainer .content .container .maincourses .main-result .result p.false {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 45.53px;
+    text-align: right;
+    color: #CF0C08;
+}
+
+.maincontainer .content .container .maincourses .main-result .result p.total {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 45.53px;
+    text-align: right;
+    color: #4B4843;
+}
+
+.maincontainer .content .container .maincourses .main-result a {
+    display: block;
+    width: fit-content;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 45.53px;
+    text-align: right;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: #63518C;
+    margin-top: 100px;
+}
+
+
+/* end of the result page */
+
+
+/* this section for the playing video section */
+
+.maincontainer .content .container .maincourses .mainvideo {
+    margin-top: 60px;
+    position: relative;
+}
+
+.maincontainer .content .container .maincourses .mainvideo .videosource {
+    width: 100%;
+    height: 40vh;
+}
+
+.maincontainer .content .container .maincourses .mainvideo .videosource video {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .content .container .maincourses .mainvideo .overlay {
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.maincontainer .content .container .maincourses .mainvideo .overlay:hover {
+    background: rgba(0, 0, 0, .8);
+}
+
+.maincontainer .content .container .maincourses .mainvideo .overlay .stop {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .mainvideo .overlay .stop .image {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.maincontainer .content .container .maincourses .mainvideo .overlay .stop .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section .right {
+    width: 35%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section .left {
+    width: 25%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section .image {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section .image:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section p {
+    color: #fff;
+}
+
+.maincontainer .content .container .maincourses .videodetails {
+    margin-top: 40px;
+}
+
+.maincontainer .content .container .maincourses .videodetails .detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maincontainer .content .container .maincourses .videodetails .detail .right .name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 37.94px;
+    text-align: right;
+    color: #000000;
+}
+
+.maincontainer .content .container .maincourses .videodetails .detail .right .watching {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26.56px;
+    text-align: right;
+    color: #717171;
+}
+
+.maincontainer .content .container .maincourses .videodetails .detail .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26.56px;
+    text-align: right;
+    color: #717171;
+    width: 13%;
+}
+
+.maincontainer .content .container .maincourses .videodetails .detail .left .rate {
+    display: flex;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .videodetails .detail .left .rate img {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.maincontainer .content .container .maincourses .videodetails .description {
+    width: 70%;
+    margin: 30px 0px;
+}
+
+.maincontainer .content .container .maincourses .videodetails .description p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30.35px;
+    text-align: right;
+    color: #676767;
+}
+
+.maincontainer .content .container .maincourses .videodetails ul {
+    margin-bottom: 25px;
+    padding-right: 20px;
+}
+
+.maincontainer .content .container .maincourses .videodetails ul li {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: right;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: #000000;
+}
+
+.maincontainer .content .container .maincourses .videodetails p.comment {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 37.94px;
+    text-align: right;
+    color: #000000;
+}
+
+.maincontainer .content .container .maincourses .videodetails .makecomment {
+    padding-right: 50px;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.maincontainer .content .container .maincourses .videodetails .makecomment .image {
+    width: 80px;
+    height: 80px;
+    margin-left: 25px;
+}
+
+.maincontainer .content .container .maincourses .videodetails .makecomment .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .content .container .maincourses .videodetails .makecomment .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border-bottom: 1px solid #D4D4D4;
+    height: fit-content;
+}
+
+.maincontainer .content .container .maincourses .videodetails .makecomment .form-group label {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 30.35px;
+    text-align: right;
+    color: #000000;
+}
+
+.maincontainer .content .container .maincourses .videodetails .makecomment .form-group input[type=text] {
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30.35px;
+    text-align: right;
+    color: #000000;
+    padding: 15px 0px;
+}
+
+.maincontainer .content .container .maincourses .videodetails .makecomment .form-group input::placeholder {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26.56px;
+    text-align: right;
+    color: #5D5D5D;
+}
+
+
+/* end of the playing video page */
 
 @media (max-width:1300px) {
     .maincontainer .content .container .maincourses .courses {
