@@ -26,45 +26,45 @@
         direction: rtl;
     }
     
-    .container {
+    .container1 {
         width: 100%;
         margin: auto;
     }
     
-    .container .header {
+    .container1 .header {
         width: 90%;
         height: 90px;
         margin: auto;
     }
     /* this is the default nav bar */
     
-    .container .header .nav-bar {
+    .container1 .header .nav-bar {
         width: 100%;
         height: 100%;
         display: flex;
         align-items: center;
     }
     
-    .container .header .nav-bar ul {
+    .container1 .header .nav-bar ul {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     
-    .container .header .nav-bar ul li .logo {
+    .container1 .header .nav-bar ul li .logo {
         width: 25%;
     }
     
-    .container .header .nav-bar ul li.logo:hover {
+    .container1 .header .nav-bar ul li.logo:hover {
         width: 15%;
     }
     
-    .container .header .nav-bar ul li {
+    .container1 .header .nav-bar ul li {
         list-style-type: none;
     }
     
-    .container .header .nav-bar ul li a.login {
+    .container1 .header .nav-bar ul li a.login {
         font-size: 20px;
         font-weight: 700;
         line-height: 37.94px;
@@ -72,14 +72,14 @@
         color: #63518C;
     }
     
-    .container .header .nav-bar ul li a.login:hover {
+    .container1 .header .nav-bar ul li a.login:hover {
         background-color: #63518C;
         padding: 10px 15px;
         border-radius: 15px;
         color: #fff;
     }
     
-    .container .header .nav-bar ul li a#active {
+    .container1 .header .nav-bar ul li a#active {
         padding-bottom: 8px;
         font-size: 20px;
         font-weight: 700;
@@ -88,7 +88,7 @@
         border-bottom: 1.5px solid #F7D671;
     }
     
-    .container .header .nav-bar ul li a.list:hover {
+    .container1 .header .nav-bar ul li a.list:hover {
         padding-bottom: 8px;
         font-size: 20px;
         font-weight: 700;
@@ -97,11 +97,11 @@
         border-bottom: 1.5px solid #F7D671;
     }
     
-    .container .header .nav-bar ul li a.register:hover {
+    .container1 .header .nav-bar ul li a.register:hover {
         color: black;
     }
     
-    .container .header .nav-bar ul li a.register {
+    .container1 .header .nav-bar ul li a.register {
         font-size: 20px;
         font-weight: 700;
         line-height: 37.94px;
@@ -115,7 +115,7 @@
         align-items: center;
     }
     
-    .container .header .nav-bar ul li a {
+    .container1 .header .nav-bar ul li a {
         text-decoration: none;
         display: block;
         font-size: 20px;
@@ -125,27 +125,27 @@
         color: #63518C;
     }
     
-    .container .header .nav-bar ul li a .image {
+    .container1 .header .nav-bar ul li a .image {
         width: 100%;
         height: 50px;
     }
     
-    .container .header .nav-bar ul li a .image img {
+    .container1 .header .nav-bar ul li a .image img {
         width: 100%;
         height: 100%;
     }
     
-    .container .header .nav-bar ul li a .whyus {
+    .container1 .header .nav-bar ul li a .whyus {
         display: flex;
         align-items: center;
     }
     
-    .container .header .nav-bar ul li a .whyus .image {
+    .container1 .header .nav-bar ul li a .whyus .image {
         width: 30px;
         height: 30px;
     }
     
-    .container .header .nav-bar ul li a .whyus .image img {
+    .container1 .header .nav-bar ul li a .whyus .image img {
         width: 100%;
         height: 100%;
     }
@@ -153,42 +153,42 @@
     /* start of the responsive nav  bar */
     /* burger menu */
     
-    .container .header .nav-bar ul.menu {
+    .container1 .header .nav-bar ul.menu {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: row-reverse;
     }
     
-    .container .header .nav-bar ul.menu li {
+    .container1 .header .nav-bar ul.menu li {
         width: fit-content;
     }
     
-    .container .header .nav-bar ul.menu li a {
+    .container1 .header .nav-bar ul.menu li a {
         width: fit-content;
     }
     
-    .container .header .nav-bar ul.menu li a .image {
+    .container1 .header .nav-bar ul.menu li a .image {
         width: 100%;
     }
     
-    .container .header .nav-bar ul.menu li .burger-icon {
+    .container1 .header .nav-bar ul.menu li .burger-icon {
         width: 50px;
         height: 50px;
         cursor: pointer;
     }
     
-    .container .header .nav-bar ul.menu li .burger-icon img {
+    .container1 .header .nav-bar ul.menu li .burger-icon img {
         width: 100%;
         height: 100%;
     }
     /* this is the responsive menu bar */
     
-    .container {
+    .container1 {
         position: relative;
     }
     
-    .container .responsive-nav-bar {
+    .container1 .responsive-nav-bar {
         width: 300px;
         height: 80vh;
         display: flex;
@@ -208,11 +208,11 @@
         box-shadow: -5px 0 5px rgba(0, 0, 0, 0.5);
     }
     
-    .container .responsive-nav-bar li {
+    .container1 .responsive-nav-bar li {
         list-style-type: none;
     }
     
-    .container .responsive-nav-bar li a {
+    .container1 .responsive-nav-bar li a {
         text-decoration: none;
         color: #63518C;
         font-size: 19px;
@@ -221,7 +221,7 @@
         text-align: right;
     }
     
-    .container .responsive-nav-bar li a.active {
+    .container1 .responsive-nav-bar li a.active {
         padding-bottom: 8px;
         font-size: 20px;
         font-weight: 700;
@@ -230,7 +230,7 @@
         border-bottom: 1.5px solid #F7D671;
     }
     
-    .container .responsive-nav-bar li .list:hover {
+    .container1 .responsive-nav-bar li .list:hover {
         padding-bottom: 8px;
         font-size: 20px;
         font-weight: 700;
@@ -239,7 +239,7 @@
         border-bottom: 1.5px solid #F7D671;
     }
     
-    .container .responsive-nav-bar li a.login {
+    .container1 .responsive-nav-bar li a.login {
         font-size: 20px;
         font-weight: 700;
         line-height: 37.94px;
@@ -247,14 +247,14 @@
         color: #63518C;
     }
     
-    .container .responsive-nav-bar li a.login:hover {
+    .container1 .responsive-nav-bar li a.login:hover {
         background-color: #63518C;
         padding: 10px 15px;
         border-radius: 15px;
         color: #fff;
     }
     
-    .container .responsive-nav-bar li a.register {
+    .container1 .responsive-nav-bar li a.register {
         font-size: 20px;
         font-weight: 700;
         line-height: 37.94px;
@@ -268,28 +268,28 @@
         align-items: center;
     }
     
-    .container .responsive-nav-bar li a.register:hover {
+    .container1 .responsive-nav-bar li a.register:hover {
         color: black;
     }
     
-    .container .responsive-nav-bar li a .whyus {
+    .container1 .responsive-nav-bar li a .whyus {
         display: flex;
         align-items: center;
         justify-content: center;
     }
     
-    .container .responsive-nav-bar li a .whyus .image {
+    .container1 .responsive-nav-bar li a .whyus .image {
         width: 50px;
         height: 50px;
     }
     
-    .container .responsive-nav-bar li a .whyus .image img {
+    .container1 .responsive-nav-bar li a .whyus .image img {
         width: 100%;
         height: 100%;
     }
     /* this section for the body content */
     
-    .container .welcome {
+    .container1 .welcome {
         margin: auto;
         display: flex;
         justify-content: center;
@@ -299,33 +299,33 @@
         padding-bottom: 30px;
     }
     
-    .container .welcome .image {
+    .container1 .welcome .image {
         width: 45%;
         position: relative;
     }
     
-    .container .welcome .image h1 {
+    .container1 .welcome .image h1 {
         color: #63518C;
         position: relative;
         right: 37px;
         font-size: 40px;
     }
     
-    .container .welcome .image .centeredImage {
+    .container1 .welcome .image .centeredImage {
         width: 100%;
         position: relative;
         bottom: 15px;
     }
     
-    .container .welcome .image .centeredImage img {
+    .container1 .welcome .image .centeredImage img {
         width: 100%;
     }
     
-    .container .welcome .text {
+    .container1 .welcome .text {
         width: 45%;
     }
     
-    .container .welcome .text h3 {
+    .container1 .welcome .text h3 {
         font-size: 48px;
         font-weight: 500;
         line-height: 52.8px;
@@ -333,7 +333,7 @@
         color: #63518C;
     }
     
-    .container .welcome .text h4 {
+    .container1 .welcome .text h4 {
         font-size: 32px;
         font-weight: 700;
         line-height: 60.7px;
@@ -342,7 +342,7 @@
         margin: 20px;
     }
     
-    .container .welcome .text .para {
+    .container1 .welcome .text .para {
         font-size: 16px;
         font-weight: 600;
         line-height: 30.35px;
@@ -350,7 +350,7 @@
         color: #001927;
     }
     
-    .container .welcome .text a {
+    .container1 .welcome .text a {
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -368,18 +368,18 @@
         color: #FFFFFF;
     }
     
-    .container .welcome .text a .image {
+    .container1 .welcome .text a .image {
         width: 40px;
         height: 40px;
         padding: 0px;
     }
     
-    .container .welcome .text a .image img {
+    .container1 .welcome .text a .image img {
         width: 100%;
         height: 100%;
     }
     
-    .container .why-choose-us {
+    .container1 .why-choose-us {
         width: 100%;
         height: 600px;
         background-color: #F5F1FD;
@@ -388,11 +388,11 @@
         align-items: center;
     }
     
-    .container .why-choose-us .why {
+    .container1 .why-choose-us .why {
         width: 50%;
     }
     
-    .container .why-choose-us .why h2 {
+    .container1 .why-choose-us .why h2 {
         font-size: 70px;
         font-weight: 500;
         line-height: 103.33px;
@@ -401,7 +401,7 @@
         height: fit-content;
     }
     
-    .container .why-choose-us .why p {
+    .container1 .why-choose-us .why p {
         font-size: 25px;
         font-weight: 700;
         line-height: 39.88px;
@@ -410,14 +410,14 @@
         margin-top: 20px;
     }
     
-    .container .about-us {
+    .container1 .about-us {
         width: 100%;
         height: 300px;
         background-color: #3C3155;
         position: relative;
     }
     
-    .container .about-us .about {
+    .container1 .about-us .about {
         width: 70%;
         margin: auto;
         display: flex;
@@ -426,7 +426,7 @@
         bottom: 107px;
     }
     
-    .container .about-us .box {
+    .container1 .about-us .box {
         width: 260px;
         height: 214px;
         padding: 32px 24px 32px 24px;
@@ -434,24 +434,24 @@
         background-color: #63518C;
     }
     
-    .container .about-us .box .top {
+    .container1 .about-us .box .top {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 30px;
     }
     
-    .container .about-us .box .top .image {
+    .container1 .about-us .box .top .image {
         width: 74.04px;
         height: 74px;
     }
     
-    .container .about-us .box .top .image img {
+    .container1 .about-us .box .top .image img {
         width: 100%;
         height: 100%;
     }
     
-    .container .about-us .box .top h4 {
+    .container1 .about-us .box .top h4 {
         font-size: 24px;
         font-weight: 500;
         line-height: 26.4px;
@@ -460,7 +460,7 @@
         box-shadow: 0px 4px 10px 0px #63518C1F;
     }
     
-    .container .about-us .box .para {
+    .container1 .about-us .box .para {
         font-size: 16px;
         font-weight: 500;
         line-height: 30.35px;
@@ -469,19 +469,19 @@
     }
     /* our program section */
     
-    .container .ourprogram {
+    .container1 .ourprogram {
         width: 100%;
         background-image: url("../images/rounded.svg");
         background-repeat: no-repeat;
         background-size: cover;
     }
     
-    .container .ourprogram .program {
+    .container1 .ourprogram .program {
         width: 100%;
         margin-bottom: 130px;
     }
     
-    .container .ourprogram .program .program-small {
+    .container1 .ourprogram .program .program-small {
         width: 60%;
         margin: auto;
         padding: 40px 0px;
@@ -490,7 +490,7 @@
         align-items: center;
     }
     
-    .container .ourprogram .program .program-small h3 {
+    .container1 .ourprogram .program .program-small h3 {
         font-size: 64px;
         font-weight: 500;
         line-height: 70.4px;
@@ -498,7 +498,7 @@
         color: #63518C;
     }
     
-    .container .ourprogram .program .program-small p {
+    .container1 .ourprogram .program .program-small p {
         font-size: 20px;
         font-weight: 700;
         line-height: 37.94px;
@@ -507,7 +507,7 @@
         margin: 30px 0px;
     }
     
-    .container .ourprogram .program .program-small .discover {
+    .container1 .ourprogram .program .program-small .discover {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -519,24 +519,24 @@
         cursor: pointer;
     }
     
-    .container .ourprogram .program .program-small .discover .image {
+    .container1 .ourprogram .program .program-small .discover .image {
         width: 40px;
         height: 40px;
     }
     
-    .container .ourprogram .program .program-small .discover .image img {
+    .container1 .ourprogram .program .program-small .discover .image img {
         width: 100%;
         height: 100%;
     }
     
-    .container .border-top {
+    .container1 .border-top {
         width: 100%;
         border-bottom: 1px solid #FFFFFF;
         border-radius: 0 0 50% 50%;
         height: 64px;
     }
     
-    .container .gallary {
+    .container1 .gallary {
         width: 100%;
         height: fit-content;
         padding: 40px 0px;
@@ -546,11 +546,11 @@
         overflow-y: scroll;
     }
     
-    .container .gallary .image.center {
+    .container1 .gallary .image.center {
         width: 60%;
     }
     
-    .container .gallary .image {
+    .container1 .gallary .image {
         width: 33%;
         height: 280px;
         border-radius: 10px;
@@ -558,25 +558,25 @@
         cursor: pointer;
     }
     
-    .container .gallary .image:hover {
+    .container1 .gallary .image:hover {
         transform: scale(1.05);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     }
     
-    .container .gallary .image img {
+    .container1 .gallary .image img {
         width: 100%;
         height: 280px;
         border-radius: 10px;
     }
     
-    .container .border-bottom {
+    .container1 .border-bottom {
         width: 100%;
         border-top: 1px solid #FFFFFF;
         border-radius: 50% 50% 0 0;
         height: 74px;
     }
     
-    .container .bottom-box {
+    .container1 .bottom-box {
         height: 150px;
     }
     /* this is the why us page */
@@ -1052,13 +1052,13 @@
     /* end of the body content */
     
     @media (max-width:1560px) {
-        .container .about-us .about {
+        .container1 .about-us .about {
             width: 85%;
         }
     }
     
     @media (max-width:1400px) {
-        .container .about-us .about {
+        .container1 .about-us .about {
             width: 100%;
         }
     }
@@ -1073,17 +1073,17 @@
         footer .footer .top {
             width: 95%;
         }
-        .container .header {
+        .container1 .header {
             width: 95%;
         }
-        .container .header .nav-bar ul.widder-nav-bar li.logo {
+        .container1 .header .nav-bar ul.widder-nav-bar li.logo {
             width: 12%;
         }
-        .container .header .nav-bar ul.widder-nav-bar li a.register {
+        .container1 .header .nav-bar ul.widder-nav-bar li a.register {
             font-size: 17px;
             font-weight: 500;
         }
-        .container .header .nav-bar ul.widder-nav-bar li a.login {
+        .container1 .header .nav-bar ul.widder-nav-bar li a.login {
             font-size: 16px;
             font-weight: 500;
         }
@@ -1100,26 +1100,26 @@
         .top-text .para {
             width: 70%;
         }
-        .container .about-us .about {
+        .container1 .about-us .about {
             width: 70%;
             flex-wrap: wrap;
         }
-        .container .about-us .about .box {
+        .container1 .about-us .about .box {
             margin-bottom: 85px;
         }
-        .container .ourprogram .program {
+        .container1 .ourprogram .program {
             padding-top: 110px;
         }
-        .container .welcome .text h3 {
+        .container1 .welcome .text h3 {
             font-size: 38px;
         }
-        .container .welcome .image h1 {
+        .container1 .welcome .image h1 {
             font-size: 32px;
         }
-        .container .ourprogram .program .program-small {
+        .container1 .ourprogram .program .program-small {
             width: 80%;
         }
-        .container .gallary .image {
+        .container1 .gallary .image {
             flex-shrink: 0;
         }
         .trainers {
@@ -1177,52 +1177,52 @@
             width: 80%;
             margin: 20px 0px;
         }
-        .container .about-us .about {
+        .container1 .about-us .about {
             width: 85%;
         }
-        .container .welcome .text h3 {
+        .container1 .welcome .text h3 {
             font-size: 30px;
         }
-        .container .welcome .image h1 {
+        .container1 .welcome .image h1 {
             font-size: 28px;
         }
     }
     
     @media (max-width:850px) {
-        .container .header .nav-bar .menu {
+        .container1 .header .nav-bar .menu {
             display: flex !important;
         }
-        .container .header .nav-bar ul.widder-nav-bar {
+        .container1 .header .nav-bar ul.widder-nav-bar {
             display: none;
         }
-        .container .header .nav-bar {
+        .container1 .header .nav-bar {
             width: 95%;
             margin: auto;
         }
-        .container .welcome {
+        .container1 .welcome {
             flex-direction: column-reverse;
         }
-        .container .welcome .text {
+        .container1 .welcome .text {
             width: 82%;
             margin-top: 38px;
         }
-        .container .welcome .text h3 {
+        .container1 .welcome .text h3 {
             font-size: 44px;
         }
-        .container .welcome .image h1 {
+        .container1 .welcome .image h1 {
             font-size: 40px;
         }
-        .container .welcome .text .para {
+        .container1 .welcome .text .para {
             font-size: 20px;
         }
-        .container .welcome .text a {
+        .container1 .welcome .text a {
             margin-bottom: 30px;
         }
-        .container .welcome .image {
+        .container1 .welcome .image {
             width: 82%;
             position: relative;
         }
-        .container .why-choose-us .why {
+        .container1 .why-choose-us .why {
             width: 60%;
         }
         footer .footer .top .Bulletin {
@@ -1261,19 +1261,19 @@
         footer .footer .top .lms {
             width: 43%;
         }
-        .container .about-us .about {
+        .container1 .about-us .about {
             width: 95%;
         }
-        .container .why-choose-us .why {
+        .container1 .why-choose-us .why {
             width: 90%;
         }
-        .container .welcome .image h1 {
+        .container1 .welcome .image h1 {
             position: static;
             font-size: 25px;
             font-weight: 900;
             text-align: center;
         }
-        .container .gallary .image {
+        .container1 .gallary .image {
             width: 45%;
         }
         footer .footer .top {
@@ -1293,54 +1293,54 @@
         footer .footer .top .Bulletin {
             width: 100%;
         }
-        .container .gallary .image {
+        .container1 .gallary .image {
             width: 100%;
         }
-        .container .welcome .text {
+        .container1 .welcome .text {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
         }
-        .container .welcome .text .para {
+        .container1 .welcome .text .para {
             text-align: center;
         }
-        .container .welcome .text h3 {
+        .container1 .welcome .text h3 {
             font-weight: 900;
             font-size: 35px;
         }
-        .container .welcome .text {
+        .container1 .welcome .text {
             width: 95%;
         }
-        .container .welcome .image {
+        .container1 .welcome .image {
             width: 95%;
         }
-        .container .ourprogram .program .program-small {
+        .container1 .ourprogram .program .program-small {
             width: 100%;
         }
-        .container .about-us {
+        .container1 .about-us {
             height: fit-content;
             padding-top: 40px;
         }
-        .container .about-us .about {
+        .container1 .about-us .about {
             flex-direction: column;
             align-items: center;
             width: 100%;
         }
-        .container .about-us .about {
+        .container1 .about-us .about {
             position: static;
         }
-        .container .ourprogram .program {
+        .container1 .ourprogram .program {
             padding: 0px;
         }
-        .container .about-us .box {
+        .container1 .about-us .box {
             width: 360px;
         }
-        .container .welcome .text h3 {
+        .container1 .welcome .text h3 {
             font-size: 30px;
             font-weight: bolder;
         }
-        .container .bottom-box {
+        .container1 .bottom-box {
             height: 30px;
         }
         .ourprograms .ourprogram .polygon {
@@ -1368,30 +1368,30 @@
         .trainers .text .best span {
             font-size: 50px;
         }
-        .container .about-us .box {
+        .container1 .about-us .box {
             width: 95%;
         }
-        .container .ourprogram .program .program-small .discover {
+        .container1 .ourprogram .program .program-small .discover {
             justify-content: space-around;
             width: 230px;
             padding: 10px;
         }
-        .container .welcome .text h4 {
+        .container1 .welcome .text h4 {
             font-size: 25px;
             font-weight: 900;
         }
-        .container .welcome .text h3 {
+        .container1 .welcome .text h3 {
             font-size: 24px;
             font-weight: 900;
         }
-        .container .header .nav-bar ul.menu li {
+        .container1 .header .nav-bar ul.menu li {
             width: 150px;
         }
-        .container .header .nav-bar ul.menu li .burger-icon {
+        .container1 .header .nav-bar ul.menu li .burger-icon {
             width: 40px;
             height: 40px;
         }
-        .container .why-choose-us .why {
+        .container1 .why-choose-us .why {
             width: 100%;
         }
         footer .footer .top .categories {
@@ -1407,16 +1407,16 @@
     }
     
     @media (max-width:305px) {
-        .container .welcome .text h3 {
+        .container1 .welcome .text h3 {
             font-size: 20px;
             font-weight: bolder;
         }
-        .container .welcome .text h4 {
+        .container1 .welcome .text h4 {
             font-size: 20px;
             margin: 0px;
             margin-bottom: 20px;
         }
-        .container .why-choose-us .why h2 {
+        .container1 .why-choose-us .why h2 {
             font-size: 50px;
         }
         footer .footer .bottom .social {

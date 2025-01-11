@@ -1,4 +1,4 @@
-const items = document.querySelectorAll('.container .header .nav-bar ul li a.list');
+const items = document.querySelectorAll('.container1 .header .nav-bar ul li a.list');
 items.forEach(item => {
     item.addEventListener('click', (event) => {
         items.forEach(item => {
@@ -9,7 +9,7 @@ items.forEach(item => {
 });
 
 
-const responsiveItems = document.querySelectorAll('.container .responsive-nav-bar li a.list');
+const responsiveItems = document.querySelectorAll('.container1 .responsive-nav-bar li a.list');
 responsiveItems.forEach(item => {
     item.addEventListener('click', (event) => {
         responsiveItems.forEach(item => {
@@ -20,8 +20,8 @@ responsiveItems.forEach(item => {
 });
 
 
-const burgerIcon = document.querySelector('.container .header .nav-bar ul.menu li .burger-icon img');
-const mainMenu = document.querySelector('.container .responsive-nav-bar');
+const burgerIcon = document.querySelector('.container1 .header .nav-bar ul.menu li .burger-icon img');
+const mainMenu = document.querySelector('.container1 .responsive-nav-bar');
 const body = document.querySelector("body");
 body.addEventListener("click", (event) => {
     let menu = window.getComputedStyle(mainMenu);

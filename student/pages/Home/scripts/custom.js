@@ -10,7 +10,7 @@ lists.forEach(list => {
 
 
 
-const buttons = document.querySelectorAll(".maincontainer .content .container .maincourses .category .btn");
+const buttons = document.querySelectorAll(".maincontainer .content .container1 .maincourses .category .btn");
 buttons.forEach(btn => {
     btn.addEventListener("click", () => {
         buttons.forEach(button => {

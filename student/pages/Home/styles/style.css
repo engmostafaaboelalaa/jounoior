@@ -186,13 +186,13 @@ html {
     overflow: scroll;
 }
 
-.maincontainer .content .container {
+.maincontainer .content .container1 {
     width: 90%;
     height: 30px;
     margin: auto;
 }
 
-.maincontainer .content .container .header {
+.maincontainer .content .container1 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -200,7 +200,7 @@ html {
     margin-bottom: 40px;
 }
 
-.maincontainer .content .container .header p {
+.maincontainer .content .container1 .header p {
     font-size: 30px;
     font-weight: 700;
     line-height: 45.53px;
@@ -208,14 +208,14 @@ html {
     color: #0D002C;
 }
 
-.maincontainer .content .container .header .input {
+.maincontainer .content .container1 .header .input {
     width: 35%;
     display: flex;
     position: relative;
     direction: ltr;
 }
 
-.maincontainer .content .container .header .input input[type=text] {
+.maincontainer .content .container1 .header .input input[type=text] {
     width: 100%;
     height: 64px;
     padding: 15px 47px 15px 24px;
@@ -228,32 +228,32 @@ html {
     color: #0D002C;
 }
 
-.maincontainer .content .container .header .input input[type=text]::placeholder {
+.maincontainer .content .container1 .header .input input[type=text]::placeholder {
     font-size: 18px;
 }
 
-.maincontainer .content .container .header .input img {
+.maincontainer .content .container1 .header .input img {
     position: relative;
     right: 37px;
     bottom: -1px;
 }
 
-.maincontainer .content .container .header .notification {
+.maincontainer .content .container1 .header .notification {
     width: 40px;
     height: 40px;
 }
 
-.maincontainer .content .container .header .notification img {
+.maincontainer .content .container1 .header .notification img {
     width: 100%;
     height: 100%;
     cursor: pointer;
 }
 
-.maincontainer .content .container .maincourses .category {
+.maincontainer .content .container1 .maincourses .category {
     display: flex;
 }
 
-.maincontainer .content .container .maincourses .category .btn {
+.maincontainer .content .container1 .maincourses .category .btn {
     padding: 5px 20px;
     background-color: #636363;
     font-size: 20px;
@@ -265,7 +265,7 @@ html {
     border-radius: 20px;
 }
 
-.maincontainer .content .container .maincourses .category .btn.active {
+.maincontainer .content .container1 .maincourses .category .btn.active {
     margin: 0px 10px;
     background-color: #63518C;
     font-size: 25px;
@@ -274,7 +274,7 @@ html {
 
 /* this is the end for the main section */
 
-.maincontainer .content .container .maincourses .courses {
+.maincontainer .content .container1 .maincourses .courses {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -283,7 +283,7 @@ html {
     gap: 10px;
 }
 
-.maincontainer .content .container .maincourses .courses .course {
+.maincontainer .content .container1 .maincourses .courses .course {
     width: 32%;
     background-color: #F2F2F2;
     padding: 10px;
@@ -291,25 +291,25 @@ html {
     margin-bottom: 30px;
 }
 
-.maincontainer .content .container .maincourses .courses .course .image {
+.maincontainer .content .container1 .maincourses .courses .course .image {
     width: 100%;
     height: fit-content;
     border-radius: 10px;
     margin-bottom: 30px;
 }
 
-.maincontainer .content .container .maincourses .courses .course .image img {
+.maincontainer .content .container1 .maincourses .courses .course .image img {
     width: 100%;
     height: 100%;
 }
 
-.maincontainer .content .container .maincourses .courses .course .head {
+.maincontainer .content .container1 .maincourses .courses .course .head {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .courses .course .head p {
+.maincontainer .content .container1 .maincourses .courses .course .head p {
     font-size: 20px;
     font-weight: 700;
     line-height: 37.94px;
@@ -317,17 +317,17 @@ html {
     color: #000000;
 }
 
-.maincontainer .content .container .maincourses .courses .course .head .rate {
+.maincontainer .content .container1 .maincourses .courses .course .head .rate {
     display: flex;
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .courses .course .head .rate img {
+.maincontainer .content .container1 .maincourses .courses .course .head .rate img {
     width: 20px;
     height: 20px;
 }
 
-.maincontainer .content .container .maincourses .courses .course .head .rate span {
+.maincontainer .content .container1 .maincourses .courses .course .head .rate span {
     font-size: 16px;
     font-weight: 500;
     text-align: right;
@@ -336,7 +336,7 @@ html {
     margin-left: 10px;
 }
 
-.maincontainer .content .container .maincourses .courses .course p.description {
+.maincontainer .content .container1 .maincourses .courses .course p.description {
     font-size: 20px;
     font-weight: 500;
     line-height: 30.35px;
@@ -347,12 +347,12 @@ html {
     cursor: pointer;
 }
 
-.maincontainer .content .container .maincourses .courses .course .actions {
+.maincontainer .content .container1 .maincourses .courses .course .actions {
     display: flex;
     justify-content: space-between;
 }
 
-.maincontainer .content .container .maincourses .courses .course .actions .subscribe {
+.maincontainer .content .container1 .maincourses .courses .course .actions .subscribe {
     width: 45%;
     height: 38px;
     padding: 4px 24px;
@@ -369,7 +369,7 @@ html {
     cursor: pointer;
 }
 
-.maincontainer .content .container .maincourses .courses .course .actions .like {
+.maincontainer .content .container1 .maincourses .courses .course .actions .like {
     width: 45%;
     height: 38px;
     padding: 4px 24px;
@@ -393,7 +393,7 @@ html {
 
 /* هذا الستيل خاص بصفحة أختيار الباقة */
 
-.maincontainer .content .container .maincourses .courses .box {
+.maincontainer .content .container1 .maincourses .courses .box {
     width: 45%;
     height: 350px;
     display: flex;
@@ -405,7 +405,7 @@ html {
     border-radius: 10px;
 }
 
-.maincontainer .content .container .maincourses .courses .box p.top {
+.maincontainer .content .container1 .maincourses .courses .box p.top {
     font-size: 24px;
     font-weight: 700;
     line-height: 37.51px;
@@ -414,7 +414,7 @@ html {
     margin-bottom: 30px;
 }
 
-.maincontainer .content .container .maincourses .courses .box .list ul {
+.maincontainer .content .container1 .maincourses .courses .box .list ul {
     width: 100%;
     padding-right: 30px;
     margin: 30px 0px;
@@ -426,11 +426,11 @@ html {
     color: #7355b9;
 }
 
-.maincontainer .content .container .maincourses .courses .box .list ul li {
+.maincontainer .content .container1 .maincourses .courses .box .list ul li {
     margin: 30px 0px;
 }
 
-.maincontainer .content .container .maincourses .courses .box a {
+.maincontainer .content .container1 .maincourses .courses .box a {
     text-decoration: none;
     width: 100%;
     display: flex;
@@ -438,7 +438,7 @@ html {
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .courses .box a .btn {
+.maincontainer .content .container1 .maincourses .courses .box a .btn {
     width: 99%;
     height: 45px;
     padding: 10px;
@@ -456,11 +456,11 @@ html {
     color: #fff;
 }
 
-.maincontainer .content .container .maincourses .sub {
+.maincontainer .content .container1 .maincourses .sub {
     margin-top: 40px;
 }
 
-.maincontainer .content .container .maincourses .subscripeorder {
+.maincontainer .content .container1 .maincourses .subscripeorder {
     width: 35%;
     height: 54px;
     border-radius: 6px;
@@ -484,23 +484,23 @@ html {
 
 /* هذة صفحة تأكيد الدفع */
 
-.maincontainer .content .container .maincourses .courses .details .return {
+.maincontainer .content .container1 .maincourses .courses .details .return {
     display: flex;
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .courses .details .return .image {
+.maincontainer .content .container1 .maincourses .courses .details .return .image {
     width: 40px;
     height: 40px;
     margin-left: 15px;
 }
 
-.maincontainer .content .container .maincourses .courses .details .return .image img {
+.maincontainer .content .container1 .maincourses .courses .details .return .image img {
     width: 100%;
     height: 100%;
 }
 
-.maincontainer .content .container .maincourses .courses .details .return {
+.maincontainer .content .container1 .maincourses .courses .details .return {
     font-size: 24px;
     font-weight: 700;
     line-height: 45.53px;
@@ -508,7 +508,7 @@ html {
     color: #0D002C;
 }
 
-.maincontainer .content .container .maincourses .return p.para {
+.maincontainer .content .container1 .maincourses .return p.para {
     font-size: 30px;
     font-weight: 900;
     line-height: 45.53px;
@@ -516,7 +516,7 @@ html {
     color: #0D002C;
 }
 
-.maincontainer .content .container .maincourses .courses .details p.text {
+.maincontainer .content .container1 .maincourses .courses .details p.text {
     font-size: 24px;
     font-weight: 700;
     line-height: 37.51px;
@@ -525,12 +525,12 @@ html {
     margin: 30px 0px;
 }
 
-.maincontainer .content .container .maincourses .courses .details .list {
+.maincontainer .content .container1 .maincourses .courses .details .list {
     width: 70%;
     margin: auto;
 }
 
-.maincontainer .content .container .maincourses .courses .details .list ul li {
+.maincontainer .content .container1 .maincourses .courses .details .list ul li {
     font-size: 16px;
     font-weight: 400;
     line-height: 25.01px;
@@ -539,56 +539,56 @@ html {
     margin: 20px;
 }
 
-.maincontainer .content .container .maincourses .courses .details a {
+.maincontainer .content .container1 .maincourses .courses .details a {
     width: 100%;
     text-decoration: none;
     display: block;
 }
 
-.maincontainer .content .container .maincourses .courses .details a .sub {
+.maincontainer .content .container1 .maincourses .courses .details a .sub {
     width: 100%;
     margin-top: 40p;
 }
 
-.maincontainer .content .container .maincourses .courses .details a .sub .subscripeorder {
+.maincontainer .content .container1 .maincourses .courses .details a .sub .subscripeorder {
     width: 100%;
 }
 
 
 /* this for wallet page style */
 
-.maincontainer .content .container .maincourses .courses .walletdetails a {
+.maincontainer .content .container1 .maincourses .courses .walletdetails a {
     width: fit-content;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails {
+.maincontainer .content .container1 .maincourses .courses .walletdetails {
     width: 100%;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .wallet {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .wallet {
     margin-top: 20px;
     width: 100%;
     height: 40px;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .wallet .mainwallet {
     width: 55%;
     margin: auto;
     padding: 30px;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .image {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .wallet .mainwallet .image {
     width: 50%;
     height: 250px;
     margin: auto;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .image img {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .wallet .mainwallet .image img {
     width: 100%;
     height: 100%;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .para {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .wallet .mainwallet .para {
     margin-top: 40px;
     text-align: center;
     height: 200px;
@@ -598,7 +598,7 @@ html {
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .para .coast {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .wallet .mainwallet .para .coast {
     font-family: El Messiri;
     font-size: 30px;
     font-weight: 700;
@@ -607,7 +607,7 @@ html {
     color: #0D002C;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .para .price {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .wallet .mainwallet .para .price {
     font-size: 48px;
     font-weight: 700;
     line-height: 75.02px;
@@ -615,7 +615,7 @@ html {
     color: #63518C;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .para .ship {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .wallet .mainwallet .para .ship {
     width: 257px;
     height: 82px;
     background-color: #63518C;
@@ -633,7 +633,7 @@ html {
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .wallet .mainwallet .pay {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .wallet .mainwallet .pay {
     font-family: El Messiri;
     font-size: 16px;
     font-weight: 700;
@@ -649,12 +649,12 @@ html {
 
 /* this is the ways of payment ways */
 
-.maincontainer .content .container .maincourses .courses .walletdetails .ways {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .ways {
     margin-top: 50px;
     padding-right: 40px;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .ways p.ship {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .ways p.ship {
     font-size: 20px;
     font-weight: 700;
     line-height: 31.26px;
@@ -663,7 +663,7 @@ html {
     margin-bottom: 40px;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .ways .way {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .ways .way {
     padding-top: 10px;
     width: 400px;
     padding-bottom: 10px;
@@ -673,7 +673,7 @@ html {
     cursor: pointer;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .ways .way p {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .ways .way p {
     font-size: 18px;
     font-weight: 500;
     line-height: 28.13px;
@@ -681,13 +681,13 @@ html {
     color: #0D002C;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .ways .way .image {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .ways .way .image {
     width: 40px;
     height: 40px;
     margin-left: 20px;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .ways .way .image img {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .ways .way .image img {
     width: 100%;
     height: 100%;
 }
@@ -698,19 +698,19 @@ html {
 
 /* this is the success payment page */
 
-.maincontainer .content .container .maincourses .courses .walletdetails .success {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .success {
     width: 100%;
     margin-top: 50px;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .success .congrate {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .success .congrate {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .success .congrate h3 {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .success .congrate h3 {
     font-size: 40px;
     font-weight: 700;
     line-height: 62.52px;
@@ -718,7 +718,7 @@ html {
     color: #63518C;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .success .congrate p {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .success .congrate p {
     font-size: 32px;
     font-weight: 500;
     line-height: 50.02px;
@@ -727,17 +727,17 @@ html {
     margin: 30px 0px;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .success .congrate .image {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .success .congrate .image {
     width: 50%;
     height: 400px;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .success .congrate .image img {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .success .congrate .image img {
     width: 100%;
     height: 100%;
 }
 
-.maincontainer .content .container .maincourses .courses .walletdetails .success .congrate a {
+.maincontainer .content .container1 .maincourses .courses .walletdetails .success .congrate a {
     margin-top: 10px;
     width: 40%;
     height: 54px;
@@ -761,14 +761,14 @@ html {
 
 /* this is the category page in user courses */
 
-.maincontainer .content .container .maincourses .courses .category {
+.maincontainer .content .container1 .maincourses .courses .category {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.maincontainer .content .container .maincourses .courses .category .box {
+.maincontainer .content .container1 .maincourses .courses .category .box {
     width: 30%;
     background-color: #F7F7F7;
     border: none;
@@ -776,7 +776,7 @@ html {
     cursor: pointer;
 }
 
-.maincontainer .content .container .maincourses .courses .category .box .numbers {
+.maincontainer .content .container1 .maincourses .courses .category .box .numbers {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -794,18 +794,18 @@ html {
 
 /* this is the group page */
 
-.maincontainer .content .container .maincourses .return .image {
+.maincontainer .content .container1 .maincourses .return .image {
     width: 30px;
     height: 30px;
     margin-left: 20px;
 }
 
-.maincontainer .content .container .maincourses .return .image img {
+.maincontainer .content .container1 .maincourses .return .image img {
     width: 100%;
     height: 100%;
 }
 
-.maincontainer .content .container .maincourses .return {
+.maincontainer .content .container1 .maincourses .return {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -817,7 +817,7 @@ html {
     color: #0D002C;
 }
 
-.maincontainer .content .container .maincourses .courses .category .groups {
+.maincontainer .content .container1 .maincourses .courses .category .groups {
     width: 26%;
     height: 250px;
     margin-bottom: 20px;
@@ -836,30 +836,30 @@ html {
 
 /* this page for the showing details for the course page */
 
-.maincontainer .content .container .maincourses .return {
+.maincontainer .content .container1 .maincourses .return {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .return.mycourses .right {
+.maincontainer .content .container1 .maincourses .return.mycourses .right {
     display: flex;
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .return.mycourses .right .image {
+.maincontainer .content .container1 .maincourses .return.mycourses .right .image {
     width: 40px;
     height: 40px;
     margin: 0px 10px;
 }
 
-.maincontainer .content .container .maincourses .return.mycourses .right .image img {
+.maincontainer .content .container1 .maincourses .return.mycourses .right .image img {
     width: 100%;
     height: 100%
 }
 
-.maincontainer .content .container .maincourses .return.mycourses .right .coursetext {
+.maincontainer .content .container1 .maincourses .return.mycourses .right .coursetext {
     font-size: 25px;
     font-weight: 500;
     line-height: 37.94px;
@@ -867,7 +867,7 @@ html {
     color: #0D002C;
 }
 
-.maincontainer .content .container .maincourses .return.mycourses .left p {
+.maincontainer .content .container1 .maincourses .return.mycourses .left p {
     font-size: 20px;
     font-weight: 500;
     line-height: 26.56px;
@@ -877,7 +877,7 @@ html {
     color: #DB1A1A;
 }
 
-.maincontainer .content .container .maincourses .courses .course .head p {
+.maincontainer .content .container1 .maincourses .courses .course .head p {
     font-size: 30px;
     font-weight: 700;
     line-height: 37.94px;
@@ -885,7 +885,7 @@ html {
     color: #000000;
 }
 
-.maincontainer .content .container .maincourses .courses .course a {
+.maincontainer .content .container1 .maincourses .courses .course a {
     display: block;
     width: 98%;
     height: 38px;
@@ -904,16 +904,16 @@ html {
     text-align: right;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails {
+.maincontainer .content .container1 .maincourses .courses.coursedetails {
     align-items: start;
     justify-content: space-between;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details {
     width: 63%;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .name {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .name {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -925,18 +925,18 @@ html {
     margin: 30px 0px;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .name .image {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .name .image {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .name .image img {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .name .image img {
     width: 30px;
     height: 30px;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details p.description {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details p.description {
     font-size: 25px;
     font-weight: 500;
     line-height: 40px;
@@ -945,18 +945,18 @@ html {
     margin-bottom: 30px;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .rate {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .rate {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .general {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .rate .general {
     display: flex;
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .general .textrate {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .rate .general .textrate {
     font-size: 30px;
     font-weight: 500;
     line-height: 34.15px;
@@ -965,13 +965,13 @@ html {
     margin-left: 30px;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .general .star {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .rate .general .star {
     display: flex;
     align-items: center;
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .general .star .num {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .rate .general .star .num {
     font-family: Noto Kufi Arabic;
     font-size: 25px;
     font-weight: 500;
@@ -981,16 +981,16 @@ html {
     margin-left: 10px;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .general .star img {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .rate .general .star img {
     width: 30px;
     height: 30px;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .watch {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .rate .watch {
     display: flex;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .rate .watch p {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .rate .watch p {
     font-size: 20px;
     font-weight: 500;
     line-height: 26.56px;
@@ -999,7 +999,7 @@ html {
     margin-left: 10px;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .aboutcourse {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .aboutcourse {
     font-size: 30px;
     font-weight: 700;
     line-height: 37.94px;
@@ -1008,34 +1008,34 @@ html {
     margin: 50px 0px;
 }
 
-.maincontainer .content .container .maincourses .courses p.description {
+.maincontainer .content .container1 .maincourses .courses p.description {
     margin-bottom: 30px;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .comments {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .comments {
     width: 90%;
     margin: auto;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .comments .comment {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .comments .comment {
     display: flex;
     align-items: start;
     height: 100px;
     margin-bottom: 30px;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .comments .comment .image {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .comments .comment .image {
     width: 80px;
     height: 80px;
     margin-left: 20px;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .comments .comment .image img {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .comments .comment .image img {
     width: 100%;
     height: 100%;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .comments .comment .mainusercomment {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .comments .comment .mainusercomment {
     width: 75%;
     height: 100%;
     padding-bottom: 20px;
@@ -1046,7 +1046,7 @@ html {
     padding: 4px 0px;
 }
 
-.maincontainer .content .container .maincourses .courses.coursedetails .details .comments .comment .mainusercomment .username {
+.maincontainer .content .container1 .maincourses .courses.coursedetails .details .comments .comment .mainusercomment .username {
     font-size: 25px;
     font-weight: 700;
     line-height: 30.35px;
@@ -1062,12 +1062,12 @@ html {
 /* 
 this section for the the lesson page */
 
-.maincontainer .content .container .maincourses .return.mylessons .right {
+.maincontainer .content .container1 .maincourses .return.mylessons .right {
     display: flex;
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .return.mylessons .right .image {
+.maincontainer .content .container1 .maincourses .return.mylessons .right .image {
     width: 40px;
     height: 40px;
 }
@@ -1075,7 +1075,7 @@ this section for the the lesson page */
 
 /* end for the lesson page */
 
-.maincontainer .content .container .maincourses .quiz-lesson {
+.maincontainer .content .container1 .maincourses .quiz-lesson {
     display: flex;
     justify-content: start;
     flex-shrink: 0;
@@ -1084,7 +1084,7 @@ this section for the the lesson page */
     margin-top: 60px;
 }
 
-.maincontainer .content .container .maincourses .quiz-lesson .lesson {
+.maincontainer .content .container1 .maincourses .quiz-lesson .lesson {
     width: 300px;
     height: 300px;
     padding: 41px 48.79px 50.63px 48px;
@@ -1094,17 +1094,17 @@ this section for the the lesson page */
     cursor: pointer;
 }
 
-.maincontainer .content .container .maincourses .quiz-lesson .lesson .image {
+.maincontainer .content .container1 .maincourses .quiz-lesson .lesson .image {
     width: 100%;
     height: 80%;
 }
 
-.maincontainer .content .container .maincourses .quiz-lesson .lesson .image img {
+.maincontainer .content .container1 .maincourses .quiz-lesson .lesson .image img {
     width: 100%;
     height: 100%;
 }
 
-.maincontainer .content .container .maincourses .quiz-lesson .lesson p {
+.maincontainer .content .container1 .maincourses .quiz-lesson .lesson p {
     font-size: 24px;
     font-weight: 500;
     line-height: 45.53px;
@@ -1119,17 +1119,17 @@ this section for the the lesson page */
 
 /* this section for the quiz page */
 
-.maincontainer .content .container .maincourses.quizes {
+.maincontainer .content .container1 .maincourses.quizes {
     display: block;
 }
 
-.maincontainer .content .container .maincourses .main-quiz {
+.maincontainer .content .container1 .maincourses .main-quiz {
     width: 100%;
     height: 100px;
     margin-top: 40px;
 }
 
-.maincontainer .content .container .maincourses .main-quiz h4 {
+.maincontainer .content .container1 .maincourses .main-quiz h4 {
     font-size: 24px;
     font-weight: 900;
     line-height: 45.53px;
@@ -1137,11 +1137,11 @@ this section for the the lesson page */
     color: #7A1812;
 }
 
-.maincontainer .content .container .maincourses .main-quiz .question {
+.maincontainer .content .container1 .maincourses .main-quiz .question {
     margin-bottom: 30px;
 }
 
-.maincontainer .content .container .maincourses .main-quiz p {
+.maincontainer .content .container1 .maincourses .main-quiz p {
     font-size: 30px;
     font-weight: 900;
     line-height: 45.53px;
@@ -1149,17 +1149,17 @@ this section for the the lesson page */
     color: #63518C;
 }
 
-.maincontainer .content .container .maincourses .main-quiz .question {
+.maincontainer .content .container1 .maincourses .main-quiz .question {
     margin-top: 20px;
 }
 
-.maincontainer .content .container .maincourses .main-quiz .question .questionheader {
+.maincontainer .content .container1 .maincourses .main-quiz .question .questionheader {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.maincontainer .content .container .maincourses .main-quiz .question .questionheader .thequestion {
+.maincontainer .content .container1 .maincourses .main-quiz .question .questionheader .thequestion {
     width: 80%;
     font-size: 30px;
     font-weight: 700;
@@ -1168,7 +1168,7 @@ this section for the the lesson page */
     color: #4B4843;
 }
 
-.maincontainer .content .container .maincourses .main-quiz .question .questionheader .degree {
+.maincontainer .content .container1 .maincourses .main-quiz .question .questionheader .degree {
     font-size: 24px;
     font-weight: 900;
     line-height: 45.53px;
@@ -1176,11 +1176,11 @@ this section for the the lesson page */
     color: #4B4843;
 }
 
-.maincontainer .content .container .maincourses .main-quiz .question .selected {
+.maincontainer .content .container1 .maincourses .main-quiz .question .selected {
     margin-right: 25px;
 }
 
-.maincontainer .content .container .maincourses .main-quiz .question .selected .selection {
+.maincontainer .content .container1 .maincourses .main-quiz .question .selected .selection {
     display: flex;
     align-items: center;
     margin: 20px 0px;
@@ -1188,18 +1188,18 @@ this section for the the lesson page */
     width: fit-content;
 }
 
-.maincontainer .content .container .maincourses .main-quiz .question .selected .selection label {
+.maincontainer .content .container1 .maincourses .main-quiz .question .selected .selection label {
     cursor: pointer;
     width: 20px;
     height: 20px;
 }
 
-.maincontainer .content .container .maincourses .main-quiz .question .selected .selection img {
+.maincontainer .content .container1 .maincourses .main-quiz .question .selected .selection img {
     width: 100%;
     height: 100%;
 }
 
-.maincontainer .content .container .maincourses .main-quiz .question .selected .selection p {
+.maincontainer .content .container1 .maincourses .main-quiz .question .selected .selection p {
     font-size: 24px;
     font-weight: 700;
     line-height: 45.53px;
@@ -1208,16 +1208,16 @@ this section for the the lesson page */
     margin-right: 15px;
 }
 
-.maincontainer .content .container .maincourses .main-quiz .line {
+.maincontainer .content .container1 .maincourses .main-quiz .line {
     display: flex;
     align-items: end;
 }
 
-.maincontainer .content .container .maincourses .main-quiz .line p {
+.maincontainer .content .container1 .maincourses .main-quiz .line p {
     margin-left: 15px;
 }
 
-.maincontainer .content .container .maincourses .main-quiz .line div {
+.maincontainer .content .container1 .maincourses .main-quiz .line div {
     height: fit-content;
     width: 80%;
     border: 1px solid;
@@ -1229,11 +1229,11 @@ this section for the the lesson page */
 
 /* this section for the result page */
 
-.maincontainer .content .container .maincourses .main-result {
+.maincontainer .content .container1 .maincourses .main-result {
     margin: 100px 0px;
 }
 
-.maincontainer .content .container .maincourses .main-result .result p.result {
+.maincontainer .content .container1 .maincourses .main-result .result p.result {
     margin-bottom: 40px;
     font-size: 24px;
     font-weight: 700;
@@ -1244,7 +1244,7 @@ this section for the the lesson page */
     color: #63518C;
 }
 
-.maincontainer .content .container .maincourses .main-result .result p.correct {
+.maincontainer .content .container1 .maincourses .main-result .result p.correct {
     font-size: 24px;
     font-weight: 700;
     line-height: 45.53px;
@@ -1253,7 +1253,7 @@ this section for the the lesson page */
     margin: 20px 0px;
 }
 
-.maincontainer .content .container .maincourses .main-result .result p.false {
+.maincontainer .content .container1 .maincourses .main-result .result p.false {
     font-size: 24px;
     font-weight: 700;
     line-height: 45.53px;
@@ -1261,7 +1261,7 @@ this section for the the lesson page */
     color: #CF0C08;
 }
 
-.maincontainer .content .container .maincourses .main-result .result p.total {
+.maincontainer .content .container1 .maincourses .main-result .result p.total {
     font-size: 24px;
     font-weight: 700;
     line-height: 45.53px;
@@ -1269,7 +1269,7 @@ this section for the the lesson page */
     color: #4B4843;
 }
 
-.maincontainer .content .container .maincourses .main-result a {
+.maincontainer .content .container1 .maincourses .main-result a {
     display: block;
     width: fit-content;
     font-size: 24px;
@@ -1288,22 +1288,22 @@ this section for the the lesson page */
 
 /* this section for the playing video section */
 
-.maincontainer .content .container .maincourses .mainvideo {
+.maincontainer .content .container1 .maincourses .mainvideo {
     margin-top: 60px;
     position: relative;
 }
 
-.maincontainer .content .container .maincourses .mainvideo .videosource {
+.maincontainer .content .container1 .maincourses .mainvideo .videosource {
     width: 100%;
     height: 40vh;
 }
 
-.maincontainer .content .container .maincourses .mainvideo .videosource video {
+.maincontainer .content .container1 .maincourses .mainvideo .videosource video {
     width: 100%;
     height: 100%;
 }
 
-.maincontainer .content .container .maincourses .mainvideo .overlay {
+.maincontainer .content .container1 .maincourses .mainvideo .overlay {
     background: rgba(0, 0, 0, .5);
     position: absolute;
     top: 0px;
@@ -1314,11 +1314,11 @@ this section for the the lesson page */
     justify-content: space-between;
 }
 
-.maincontainer .content .container .maincourses .mainvideo .overlay:hover {
+.maincontainer .content .container1 .maincourses .mainvideo .overlay:hover {
     background: rgba(0, 0, 0, .8);
 }
 
-.maincontainer .content .container .maincourses .mainvideo .overlay .stop {
+.maincontainer .content .container1 .maincourses .mainvideo .overlay .stop {
     width: 100%;
     height: 85%;
     display: flex;
@@ -1326,25 +1326,25 @@ this section for the the lesson page */
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .mainvideo .overlay .stop .image {
+.maincontainer .content .container1 .maincourses .mainvideo .overlay .stop .image {
     width: 100px;
     height: 100px;
     cursor: pointer;
 }
 
-.maincontainer .content .container .maincourses .mainvideo .overlay .stop .image img {
+.maincontainer .content .container1 .maincourses .mainvideo .overlay .stop .image img {
     width: 100%;
     height: 100%;
 }
 
-.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section {
+.maincontainer .content .container1 .maincourses .mainvideo .overlay .bottom-section {
     height: 10%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section .right {
+.maincontainer .content .container1 .maincourses .mainvideo .overlay .bottom-section .right {
     width: 35%;
     margin-right: 20px;
     display: flex;
@@ -1352,7 +1352,7 @@ this section for the the lesson page */
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section .left {
+.maincontainer .content .container1 .maincourses .mainvideo .overlay .bottom-section .left {
     width: 25%;
     margin-left: 20px;
     display: flex;
@@ -1360,36 +1360,36 @@ this section for the the lesson page */
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section .image {
+.maincontainer .content .container1 .maincourses .mainvideo .overlay .bottom-section .image {
     width: 40px;
     height: 40px;
     cursor: pointer;
 }
 
-.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section .image:hover {
+.maincontainer .content .container1 .maincourses .mainvideo .overlay .bottom-section .image:hover {
     width: 50px;
     height: 50px;
 }
 
-.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section .image img {
+.maincontainer .content .container1 .maincourses .mainvideo .overlay .bottom-section .image img {
     width: 100%;
     height: 100%;
 }
 
-.maincontainer .content .container .maincourses .mainvideo .overlay .bottom-section p {
+.maincontainer .content .container1 .maincourses .mainvideo .overlay .bottom-section p {
     color: #fff;
 }
 
-.maincontainer .content .container .maincourses .videodetails {
+.maincontainer .content .container1 .maincourses .videodetails {
     margin-top: 40px;
 }
 
-.maincontainer .content .container .maincourses .videodetails .detail {
+.maincontainer .content .container1 .maincourses .videodetails .detail {
     display: flex;
     justify-content: space-between;
 }
 
-.maincontainer .content .container .maincourses .videodetails .detail .right .name {
+.maincontainer .content .container1 .maincourses .videodetails .detail .right .name {
     font-size: 20px;
     font-weight: 700;
     line-height: 37.94px;
@@ -1397,7 +1397,7 @@ this section for the the lesson page */
     color: #000000;
 }
 
-.maincontainer .content .container .maincourses .videodetails .detail .right .watching {
+.maincontainer .content .container1 .maincourses .videodetails .detail .right .watching {
     font-size: 14px;
     font-weight: 500;
     line-height: 26.56px;
@@ -1405,7 +1405,7 @@ this section for the the lesson page */
     color: #717171;
 }
 
-.maincontainer .content .container .maincourses .videodetails .detail .left {
+.maincontainer .content .container1 .maincourses .videodetails .detail .left {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1417,23 +1417,23 @@ this section for the the lesson page */
     width: 13%;
 }
 
-.maincontainer .content .container .maincourses .videodetails .detail .left .rate {
+.maincontainer .content .container1 .maincourses .videodetails .detail .left .rate {
     display: flex;
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .videodetails .detail .left .rate img {
+.maincontainer .content .container1 .maincourses .videodetails .detail .left .rate img {
     width: 22px;
     height: 22px;
     margin-right: 10px;
 }
 
-.maincontainer .content .container .maincourses .videodetails .description {
+.maincontainer .content .container1 .maincourses .videodetails .description {
     width: 70%;
     margin: 30px 0px;
 }
 
-.maincontainer .content .container .maincourses .videodetails .description p {
+.maincontainer .content .container1 .maincourses .videodetails .description p {
     font-size: 16px;
     font-weight: 500;
     line-height: 30.35px;
@@ -1441,12 +1441,12 @@ this section for the the lesson page */
     color: #676767;
 }
 
-.maincontainer .content .container .maincourses .videodetails ul {
+.maincontainer .content .container1 .maincourses .videodetails ul {
     margin-bottom: 25px;
     padding-right: 20px;
 }
 
-.maincontainer .content .container .maincourses .videodetails ul li {
+.maincontainer .content .container1 .maincourses .videodetails ul li {
     font-size: 20px;
     font-weight: 700;
     line-height: 45px;
@@ -1456,7 +1456,7 @@ this section for the the lesson page */
     color: #000000;
 }
 
-.maincontainer .content .container .maincourses .videodetails p.comment {
+.maincontainer .content .container1 .maincourses .videodetails p.comment {
     font-size: 20px;
     font-weight: 700;
     line-height: 37.94px;
@@ -1464,25 +1464,25 @@ this section for the the lesson page */
     color: #000000;
 }
 
-.maincontainer .content .container .maincourses .videodetails .makecomment {
+.maincontainer .content .container1 .maincourses .videodetails .makecomment {
     padding-right: 50px;
     margin: 30px 0px;
     display: flex;
     align-items: center;
 }
 
-.maincontainer .content .container .maincourses .videodetails .makecomment .image {
+.maincontainer .content .container1 .maincourses .videodetails .makecomment .image {
     width: 80px;
     height: 80px;
     margin-left: 25px;
 }
 
-.maincontainer .content .container .maincourses .videodetails .makecomment .image img {
+.maincontainer .content .container1 .maincourses .videodetails .makecomment .image img {
     width: 100%;
     height: 100%;
 }
 
-.maincontainer .content .container .maincourses .videodetails .makecomment .form-group {
+.maincontainer .content .container1 .maincourses .videodetails .makecomment .form-group {
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -1490,7 +1490,7 @@ this section for the the lesson page */
     height: fit-content;
 }
 
-.maincontainer .content .container .maincourses .videodetails .makecomment .form-group label {
+.maincontainer .content .container1 .maincourses .videodetails .makecomment .form-group label {
     font-size: 20px;
     font-weight: 900;
     line-height: 30.35px;
@@ -1498,7 +1498,7 @@ this section for the the lesson page */
     color: #000000;
 }
 
-.maincontainer .content .container .maincourses .videodetails .makecomment .form-group input[type=text] {
+.maincontainer .content .container1 .maincourses .videodetails .makecomment .form-group input[type=text] {
     outline: none;
     border: none;
     font-size: 20px;
@@ -1509,7 +1509,7 @@ this section for the the lesson page */
     padding: 15px 0px;
 }
 
-.maincontainer .content .container .maincourses .videodetails .makecomment .form-group input::placeholder {
+.maincontainer .content .container1 .maincourses .videodetails .makecomment .form-group input::placeholder {
     font-size: 20px;
     font-weight: 600;
     line-height: 26.56px;
@@ -1521,11 +1521,11 @@ this section for the the lesson page */
 /* end of the playing video page */
 
 @media (max-width:1300px) {
-    .maincontainer .content .container .maincourses .courses {
+    .maincontainer .content .container1 .maincourses .courses {
         justify-content: space-between;
         gap: 0px;
     }
-    .maincontainer .content .container .maincourses .courses .course {
+    .maincontainer .content .container1 .maincourses .courses .course {
         width: 48%;
     }
 }
